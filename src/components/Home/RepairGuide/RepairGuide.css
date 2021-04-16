@@ -1,0 +1,12 @@
+.repairGuideContainer {
+  margin-bottom: 100px;
+}
+.repairGuideHeading {
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}
+.repairGuideTitle {
+  text-align: center;
+  color: gray;
+}

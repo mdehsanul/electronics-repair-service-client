@@ -1,0 +1,12 @@
+.teamContainer {
+  margin-bottom: 100px;
+}
+.teamHeading {
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}
+.teamTitle {
+  text-align: center;
+  color: gray;
+}

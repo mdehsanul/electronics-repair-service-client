@@ -1,0 +1,9 @@
+.linkStyle {
+  text-decoration: none;
+}
+.link:hover {
+  color: #ffdd00 !important;
+}
+.navbarButton:hover {
+  background-color: #ffdd00;
+}

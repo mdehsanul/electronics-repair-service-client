@@ -1,0 +1,33 @@
+.aboutSection {
+  margin-bottom: 100px;
+}
+.aboutHeading {
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}
+.aboutTitle {
+  text-align: center;
+  color: gray;
+}
+.socialButton {
+  text-align: center;
+  margin-left: 20px;
+  margin-top: -30px;
+}
+.facebookbutton {
+  margin: 10px;
+  padding: 10px 30px;
+  background: white;
+  color: black;
+  border: 1px solid #3a42ff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.facebookImage {
+  width: 26px;
+  float: left;
+  margin-left: -22px;
+  margin-right: 10px;
+}
