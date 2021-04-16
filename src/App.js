@@ -1,6 +1,7 @@
 import React, { createContext, useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+import Sidebar from "./components/Dashboard/Sidebar/Sidebar";
 import Home from "./components/Home/Home/Home";
 import Login from "./components/Login/Login";
 
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route exact path="/login">
             <Login></Login>
+          </Route>
+          <Route exact path="/book">
+            <Sidebar></Sidebar>
           </Route>
         </Switch>
       </Router>
