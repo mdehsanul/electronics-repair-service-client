@@ -1,0 +1,50 @@
+.loginHeader,
+.loginTitle {
+  font-weight: 800;
+  text-align: center;
+}
+.loginHeader {
+  margin: 40px;
+}
+.loginTitle {
+  margin-top: 280px;
+}
+.socialButton {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  margin-left: 20px;
+}
+.button {
+  width: 26%;
+  margin: 10px;
+  padding: 10px 30px;
+  background: white;
+  color: black;
+  border: 1px solid #3a42ff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.googleImage {
+  width: 25px;
+  float: left;
+  margin-left: -22px;
+}
+@media (width: 360px) {
+  .loginTitle {
+    margin-top: 150px;
+  }
+  .socialButton {
+    padding-bottom: 60px;
+  }
+  .button {
+    width: 90%;
+    margin-right: 20px;
+    margin-top: 10px;
+    background: white;
+    color: black;
+    border: 1px solid #3a42ff;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+}
