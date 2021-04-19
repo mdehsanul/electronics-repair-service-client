@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# website name: 
+Electronics Repair Service
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## live:
+https://electronics-repair-service.web.app/
 
-## Available Scripts
+or,
 
-In the project directory, you can run:
+https://electronics-repair-service.firebaseapp.com/
 
-### `npm start`
+### Feature:
+1. Navbar -> name of the website, Home, Bookings, Our Team, Admin button added. Home button redirects the user to the Home page. Bookings button redirects the user to the User                page, The Admin button uses to go to the Admin page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Home page -> On this page, users will get service cards with service information(device type, service name, price, service info) for choice their service with Go for Service                 button. After click on any of the service by Go for Service button they will redirect the user to the Login page for login. Besides anyone can see the review of                 the users who take service from Electronics Repair Service
+3. Login page -> in this page, user can login.
+      
+                 login can be done using:
+                 * google.
+                 
+4. when a user login the user redirect to the Dashboard which have two part user and admin. the route will redirect them according to their role using email.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+5. user page -> 
+                   * Book -> In this page user get the service(service name, price) book form(user name, user email)  with payment method for place booking service.                                          When clicking submit button the user will get confirmation alert that the service placed on the booking list and using strip payment card                                        they can pay the service bill and after click on pay button they get confirmation message.
+                   * Booking List -> all the booking depending on user who loggedIn will show here with total booking, user name, user email. and Booking service                                                      information. Interesting  matter here user can their order status(pending, ongoing, done) which are controlled from Admin page.
+                   * Review page ->  a loggedIn user can write review about the service they taken from the shop which will be visible in the Home page Review                                                        section. 
+7. Admin page ->   
+                   * Book -> process same as user
+                   * Booking List -> process same as user
+                   * Review page -> process same as user
+                   * order list -> admin can see all the service that are booked and change the status(pending, ongoing, done) of booking service from here.
+                   * Add service -> a loggedIn admin user can Add new service information.
+                                  (device  type, service name, price, service description, image)
+                   * Make Admin -> admin can make a user another admin using the email of that user 
+                   * Manage services -> a loggedIn admin user can Manage services( can see all the services that are add).
+                                       Also the admin user can Delete service that is not available  
+8. Logout -> In the side both Admin and User has a logout button the logged out both of them and return to the home page.
+8. React Router is used to switch between the pages and the URL is Dynamically generated.
+9. PrivateRoute -> PrivateRoute used to make difference between user and admin using email.
 
-### `npm test`
+### Responsiveness:(Home page)
+1. Desktop
+2. mobile devices are
+    * Galaxy Note 3(360 X 640), 100%, Online
+    * Moto G4(360 X 640), 100%, Online
+    * Galaxy S5(360 X 640), 100%, Online
+ 
+### Attention: 
+1. in my website user can go for book service by choosing service from home page then they will redirect to the booking form or can go directly to see their previous booking. those who(admin, user) not selecting service from home page they will get a chance to choose service from dashboard Book page. when they select service they will redirect to the booking form for book the service.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank You... 
