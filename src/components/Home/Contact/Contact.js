@@ -13,7 +13,7 @@ const Contact = () => {
       </p>
       <section className="contact py-5 ">
         <div className="container">
-          <div className="col-md-9 mx-auto">
+          <div className="col-md-9 mx-auto shadow pt-3 pb-2 rounded">
             <form action="">
               <div className="form-group">
                 <input
@@ -47,7 +47,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div class="d-grid form-group">
-                <button class="btn contactButton">
+                <button class="btn shadow rounded contactButton">
                   <span>Service </span>
                 </button>
               </div>

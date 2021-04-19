@@ -16,7 +16,7 @@ const About = () => {
             <img className="img-fluid" src={devices} alt="" />
           </div>
           <div className="col-md-7 align-self-center">
-            <h1>
+            <h1 className="shadow bg-body rounded ps-3 pt-1 pb-1">
               <strong style={{ color: "#FFDD00" }}>23</strong> YEARS <br /> OF
               EXPERIENCE IN DIGITAL DEVICE REPAIR SERVICES
             </h1>

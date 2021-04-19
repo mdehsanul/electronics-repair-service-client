@@ -17,22 +17,38 @@ const Team = () => {
         </p>
         <div className="row">
           <div className="col-md-3 text-center">
-            <img className="img-fluid mb-3" src={christopher} alt="" />
+            <img
+              className="img-fluid mb-3 shadow bg-body rounded"
+              src={christopher}
+              alt=""
+            />
             <h4>Christopher</h4>
             <p>CEO and Founder</p>
           </div>
           <div className="col-md-3 text-center">
-            <img className="img-fluid mb-3" src={sergioDePaula} alt="" />
+            <img
+              className="img-fluid mb-3 shadow bg-body rounded"
+              src={sergioDePaula}
+              alt=""
+            />
             <h4>Sergio De Paula</h4>
             <p>Chief Engineer</p>
           </div>
           <div className="col-md-3 text-center">
-            <img className="img-fluid mb-3" src={dan} alt="" />
+            <img
+              className="img-fluid mb-3 shadow bg-body rounded"
+              src={dan}
+              alt=""
+            />
             <h4>Dan</h4>
             <p>Technical Manager</p>
           </div>
           <div className="col-md-3 text-center">
-            <img className="img-fluid mb-3" src={AustinDistel} alt="" />
+            <img
+              className="img-fluid mb-3 shadow bg-body rounded"
+              src={AustinDistel}
+              alt=""
+            />
             <h4>Austin Distel</h4>
             <p>Office Manager</p>
           </div>

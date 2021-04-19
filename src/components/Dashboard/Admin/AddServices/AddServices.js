@@ -16,6 +16,7 @@ const Addservices = () => {
     const eventData = {
       device: data.device,
       service: data.service,
+      price: data.price,
       description: data.description,
       imageURL: imageURL,
     };
@@ -64,7 +65,6 @@ const Addservices = () => {
             <h3>Device Type</h3>
             <input
               name="device"
-              // defaultValue="book name"
               {...register("device", { required: true })}
               placeholder="device name"
               className="device-input"
@@ -75,7 +75,6 @@ const Addservices = () => {
             <h3>Service Name</h3>
             <input
               name="service"
-              // defaultValue="book name"
               {...register("service", { required: true })}
               placeholder="service name"
               className="service-input"
@@ -83,6 +82,14 @@ const Addservices = () => {
             {errors.service && (
               <span className="error">service name is required</span>
             )}
+            <h3>Price</h3>
+            <input
+              name="price"
+              {...register("price", { required: true })}
+              placeholder="price"
+              className="service-input"
+            />
+            {errors.price && <span className="error">price is required</span>}
             <h3>Description</h3> <br />
             <textarea
               name="description"
@@ -93,7 +100,7 @@ const Addservices = () => {
             {errors.description && (
               <span className="error">Description is required</span>
             )}
-            <h3>Add Service Cover Photo:</h3>
+            <h3 className="mt-3">Service Cover Photo</h3>
             <input
               name="image"
               type="file"

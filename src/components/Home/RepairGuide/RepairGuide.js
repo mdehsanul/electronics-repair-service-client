@@ -16,7 +16,7 @@ const RepairGuide = () => {
         </p>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 shadow bg-body rounded">
               <img
                 src={laptopTips}
                 class="card-img-top"
@@ -38,13 +38,13 @@ const RepairGuide = () => {
                   longer.
                 </p>
               </div>
-              <button class="repairButton">
+              <button class="repairButton shadow rounded">
                 <span>Tab for More</span>
               </button>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 shadow bg-body rounded">
               <img
                 src={mobileTips}
                 class="card-img-top"
@@ -62,13 +62,13 @@ const RepairGuide = () => {
                 </h5>
                 <p class="card-text">This is a short card.</p>
               </div>
-              <button class="repairButton">
+              <button class="repairButton shadow rounded">
                 <span>Tab for More</span>
               </button>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 shadow bg-body rounded">
               <img
                 src={pcTips}
                 class="card-img-top"
@@ -89,7 +89,7 @@ const RepairGuide = () => {
                   lead-in to additional content.
                 </p>
               </div>
-              <button class="repairButton">
+              <button class="repairButton shadow rounded">
                 <span>Tab for More</span>
               </button>
             </div>

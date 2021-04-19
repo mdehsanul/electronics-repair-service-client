@@ -22,8 +22,8 @@ const Services = () => {
       <div className="container mt-5 serviceContainer">
         <div className="row mt-5">
           {serviceDetail.map((serviceDetail) => (
-            <div class="col-md-3 mt-4">
-              <div class="card h-100 ">
+            <div class="col-md-3 mt-4 ">
+              <div class="card h-100 shadow bg-body rounded">
                 <img
                   src={serviceDetail.imageURL}
                   class="card-img-top"
@@ -37,6 +37,11 @@ const Services = () => {
                     </strong>{" "}
                     <br />
                     <strong>{serviceDetail.service}</strong>
+                    <br />
+                    <br />
+                    <h5>
+                      <strong>{serviceDetail.price}</strong>
+                    </h5>
                   </p>
                   <p class="card-text">{serviceDetail.description}</p>
                   <p class="card-text">
@@ -44,7 +49,7 @@ const Services = () => {
                   </p>
                 </div>
                 <Link to={"/book/" + serviceDetail._id}>
-                  <button class="serviceButton">
+                  <button class="serviceButton shadow rounded">
                     <span>Go for Service </span>
                   </button>
                 </Link>

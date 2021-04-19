@@ -17,8 +17,8 @@ const Review = () => {
         <h1 className="reviewHeading">Our Clients Opinion About Us</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
           {reviews.map((review) => (
-            <div class="col">
-              <div class="card h-100">
+            <div class="col ">
+              <div class="card h-100 shadow bg-body rounded">
                 <div class="card-body">
                   <h5 class="card-title text-primary">- {review.name}</h5>
                   <h6 class="card-subtitle mb-2 text-muted">
