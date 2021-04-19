@@ -38,6 +38,9 @@ const RepairGuide = () => {
                   longer.
                 </p>
               </div>
+              <button class="repairButton">
+                <span>Tab for More</span>
+              </button>
             </div>
           </div>
           <div class="col">
@@ -59,6 +62,9 @@ const RepairGuide = () => {
                 </h5>
                 <p class="card-text">This is a short card.</p>
               </div>
+              <button class="repairButton">
+                <span>Tab for More</span>
+              </button>
             </div>
           </div>
           <div class="col">
@@ -83,6 +89,9 @@ const RepairGuide = () => {
                   lead-in to additional content.
                 </p>
               </div>
+              <button class="repairButton">
+                <span>Tab for More</span>
+              </button>
             </div>
           </div>
         </div>

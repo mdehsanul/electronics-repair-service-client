@@ -1,0 +1,36 @@
+h3 {
+  margin-bottom: -20px;
+}
+.admin-form {
+  margin: 30px 100px;
+}
+.admin-form input {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 300px;
+}
+.admin-input {
+  height: 35px;
+}
+
+.addAdminButton {
+  margin-left: 150px !important;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: #27a327;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.error {
+  color: red;
+}

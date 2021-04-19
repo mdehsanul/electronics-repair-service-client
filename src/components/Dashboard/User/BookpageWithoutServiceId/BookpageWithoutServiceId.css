@@ -1,16 +1,16 @@
-.repairGuideContainer {
-  margin-bottom: 100px;
+.BookpageWithoutServiceId {
+  margin-left: 450px;
 }
-.repairGuideHeading {
+.servicesHeading {
   text-transform: uppercase;
   font-weight: 800;
   text-align: center;
 }
-.repairGuideTitle {
+.servicesTitle {
   text-align: center;
   color: gray;
 }
-.repairButton {
+.serviceButton {
   border-radius: 4px;
   background-color: #ffdd00;
   border: none;
@@ -19,21 +19,20 @@
   font-size: 19px;
   font-weight: 800;
   padding: 10px;
-  width: 404px;
+  width: 294px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  float: right;
 }
 
-.repairButton span {
+.serviceButton span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.repairButton span:after {
+.serviceButton span:after {
   content: "\00bb";
   position: absolute;
   opacity: 0;
@@ -42,16 +41,16 @@
   transition: 0.5s;
 }
 
-.repairButton:hover span {
+.serviceButton:hover span {
   padding-right: 25px;
 }
 
-.repairButton:hover span:after {
+.serviceButton:hover span:after {
   opacity: 1;
   right: 0;
 }
 @media (width: 360px) {
-  .repairButton {
-    width: 324px !important;
+  .serviceButton {
+    width: 324px;
   }
 }

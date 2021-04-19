@@ -5,7 +5,7 @@ import About from "../About/About";
 import Contact from "../Contact/Contact";
 import HomeHeader from "../HomeHeader/HomeHeader";
 import RepairGuide from "../RepairGuide/RepairGuide";
-import Review from "../Review/Review";
+import CustomerReview from "../CustomerReview/CustomerReview";
 import Services from "../Services/Services";
 import Team from "../Team/Team";
 
@@ -17,7 +17,7 @@ const Home = () => {
       <Services></Services>
       <About></About>
       <Team></Team>
-      <Review></Review>
+      <CustomerReview></CustomerReview>
       <RepairGuide></RepairGuide>
       <Contact></Contact>
       <Footer></Footer>

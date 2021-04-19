@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./Services.css";
+import Sidebar from "../../../Shared/Sidebar/Sidebar";
+import "./BookpageWithoutServiceId.css";
 
-const Services = () => {
+const BookingpageWithhoutServiceId = () => {
   const [serviceDetail, setServiceDetail] = useState([]);
   useEffect(() => {
     fetch("http://localhost:4000/serviceDetail")
@@ -13,13 +14,8 @@ const Services = () => {
   }, []);
   return (
     <div>
-      <h1 className="servicesHeading">highlights of our service</h1>
-      <p className="servicesTitle">
-        Any kinds of digital device problem you need fixed. We can help! Check
-        out our digital device repair services to find more information of what
-        exactly we provide and if it suites your needs
-      </p>
-      <div className="container mt-5 serviceContainer">
+      <Sidebar></Sidebar>
+      <div className="container mt-5 BookpageWithoutServiceId">
         <div className="row mt-5">
           {serviceDetail.map((serviceDetail) => (
             <div class="col-md-3 mt-4">
@@ -57,4 +53,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default BookingpageWithhoutServiceId;

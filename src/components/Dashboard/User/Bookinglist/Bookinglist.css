@@ -1,0 +1,27 @@
+.bookingList {
+  margin-left: 150px;
+}
+.bookingButton {
+  border-radius: 4px;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 800;
+  padding: 10px;
+  width: 404px;
+  transition: all 0.5s;
+  cursor: progress;
+  margin: 5px;
+  float: right;
+}
+.bookingButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.bookingListDetail {
+  float: right;
+  margin-right: 150px;
+}
