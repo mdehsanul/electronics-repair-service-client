@@ -47,4 +47,5 @@ https://electronics-repair-service.firebaseapp.com/
 ### Attention: 
 1. in my website user can go for book service by choosing service from home page then they will redirect to the booking form or can go directly to see their previous booking. those who(admin, user) not selecting service from home page they will get a chance to choose service from dashboard Book page. when they select service they will redirect to the booking form for book the service.
 
+2. Sometime Home page -> HIGHLIGHTS OF OUR SERVICE will not load due to net problem please reload the home page again
 Thank You... 
